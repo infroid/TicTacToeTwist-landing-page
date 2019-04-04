@@ -43,7 +43,7 @@ header.masthead .mh-slider {
 }
 
 #slider {
-  background-image: url(../img/bk.jpg);
+  background-image: url(../img/bk1.jpg);
   overflow: hidden;
   background-attachment: fixed;
   position: relative;
@@ -281,6 +281,14 @@ section#features .feature .icon i {
   height: 2em;
   padding-top: 26px;
 }
+
+section#features .feature .icon img {
+ 
+
+  width: 10em;
+  height: 10em;
+
+}
 section#features .feature h4 {
   font-weight: 300;
   padding: 8px 0;
@@ -312,7 +320,7 @@ section#features .carousel-indicators li.active {
   border-color: white;
 }
 section#download {
-  background-image: url(../img/download_bk.jpg);
+  background-image: url(../img/bk3.jpg);
   color: white;
   position: relative;
 }
@@ -857,7 +865,7 @@ section#sponsors {
 }
 
 footer {
-  background-image: url(../img/grey.jpg);
+  background-image: url(../img/hand.jpg);
   position: relative;
   padding: 5px 0;
   color: white;
@@ -1115,4 +1123,50 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .none {
+ 
+  display:block;
+}
+
+}
+@media (min-width: 995px) and (max-width: 1199px) {
+#slider .container #carousel-slider .carousel-control {
+  background-image: none;
+  padding-top: 45%;
+  margin-left: -10%;
+}	
+
+}
+
+@media (max-width: 994px) {
+  #nav .navbar-nav li a {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+ #nav .navbar-brand {
+	text-transform: uppercase;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-family: "Open Sans", Tahoma, Arial;
+  color: gray;
+  font-size: 1.5em;
+} 
+#slider .container #carousel-slider .carousel-inner .item img {
+ padding-left: 47%;
+ padding-top: 10%;
+}
+
+#slider .container .btn.side {
+ margin-left:47%;
+}
+#slider .container #carousel-slider .carousel-control {
+  background-image: none;
+  padding-top: 45%;
+  padding-left: 32%;
+}	
+
+.none {
+ 
+  display:none;
+}
 }
