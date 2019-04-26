@@ -43,16 +43,6 @@
 
 <body>
 
-    <div class="pre-loader">
-        <div class="load-con">
-            <!--img src="img/logo.png" class="animated fadeInDown" alt=""-->
-            <div class="spinner">
-              <div class="bounce1"></div>
-              <div class="bounce2"></div>
-              <div class="bounce3"></div>
-            </div>
-        </div>
-    </div>
 
     <!-- Wrap all page content here -->
     <div id="wrap">
@@ -63,30 +53,37 @@
                     <div class="row mh-container">
                         <h1><span>Tic Tac Toe </span> Twist</h1>
                         <h3>New Popular Application</h3>
-                        <div class="col-md-4 col-md-push-4">
-                            <div class="btn-group btn-group-justified btn-lg small">
-                                <div class="btn-group">
-                                    <a href="#" class="btn btn-default scrollpoint sp-effect6">
-                                        <span class="apple" style="display:none;"></span>
-                                    </a>
+                       <div class="btn-group btn-group-justified btn-lg">
+                       <div class="row">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="row">
+                                    <div class="btn-group scrollpoint sp-effect4 none">
+                                        <a href="#" class="btn btn-default">
+                                            <span class="appstore"></span>
+                                        </a>
+                                    </div>  
                                 </div>
-                                <div class="btn-group">
-                                    <a href="#" class="btn btn-default scrollpoint sp-effect6">
-                                        <span class="play"></span>
-                                    </a>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="row">
+                                    <div class="btn-group scrollpoint sp-effect4">
+                                        <a href="#" class="btn btn-default">
+                                            <span class="playstore"></span>
+                                        </a>
+                                    </div> 
                                 </div>
-                                <div class="btn-group">
-                                    <a href="#" class="btn btn-default scrollpoint sp-effect6">
-                                        <span class="android"></span>
-                                    </a>
-                                </div>
-                                <div class="btn-group">
-                                    <a href="#" class="btn btn-default scrollpoint sp-effect6">
-                                        <span class="windows" style="display:none;"></span>
-                                    </a>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="row">
+                                    <div class="btn-group scrollpoint sp-effect4 none">
+                                        <a href="#" class="btn btn-default">
+                                            <span class="micstore"></span>
+                                        </a>
+                                    </div>  
                                 </div>
                             </div>
                         </div>
+                    </div>
                         <div class="col-md-10 col-md-push-1 hidden-xs mh-slider">
                             <div class="row">
                                 <div class="col-md-3">
@@ -287,7 +284,7 @@
                                 <a href="#" class="btn btn-default scrollpoint sp-effect6">
                                     <span class="apple"></span>
                                 </a>
-                            </div-->
+                            </div>
                             <div class="btn-group">
                                 <a href="#" class="btn btn-default scrollpoint sp-effect6">
                                     <span class="play"></span>
@@ -362,19 +359,20 @@
         <section id="screenshots">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2 hidden-xs">
+                    <!--div class="col-md-2 hidden-xs none">
                         <span class="owl-prev"><i class="fa fa-chevron-left fa-2x"></i></span>
-                    </div>
-                    <div class="col-md-8">
+                    </div-->
+					
+					<center>
                         <div class="section-heading scrollpoint sp-effect3">
                             <h3>Tic Tac Toe Twist<span> screen shots</span></h3>
                             <span class="divider"></span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis vel reprehenderit expedit!</p>
+                            <!--p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis vel reprehenderit expedit!</p-->
                         </div>
-                    </div>
-                    <div class="col-md-2 hidden-xs">
+</center>
+                    <!--div class="col-md-2 hidden-xs none">
                         <span class="owl-next"><i class="fa fa-chevron-right fa-2x"></i></span>
-                    </div>                 
+                    </div-->                 
                 </div>
             </div>
             <div id="owl-screenshots" class="owl-carousel">
@@ -778,9 +776,7 @@
             </div>
         </section>
 
-        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBFFv0rShSsQB4BGR6SkSmuKAr0ahCs1dw'></script><div style='overflow:hidden;height:460px;width:100%;'><div id='gmap_canvas' style='height:460px;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://mapswebsite.org/'>google maps embedded</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=27b2439457fe4304de3dadf464860716db802468'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(28.474388, 77.503990),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(28.474388, 77.503990)});infowindow = new google.maps.InfoWindow({content:'<strong>map</strong><br><br> NOIDA<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-
-      
+  
 
         <footer id="contact">
             <div class="container">
